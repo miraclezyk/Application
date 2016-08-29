@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:descendantFocusability="beforeDescendants"
+    android:focusableInTouchMode="true">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:text="COMPANY"
+        android:textStyle="italic"
+        android:textSize="16dp"/>
+
+    <EditText
+        android:id="@+id/company"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="10dp"
+        android:hint="TAP TO ENTER"
+        android:textColorHint="#bdbdbd"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="#737cda"
+        android:singleLine="true"
+        android:background="@android:color/transparent" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:text="POSITION"
+        android:textStyle="italic"
+        android:textSize="16dp"/>
+
+    <EditText
+        android:id="@+id/position"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="10dp"
+        android:hint="TAP TO ENTER"
+        android:textColorHint="#bdbdbd"
+        android:textSize="20dp"
+        android:textColor="#737cda"
+        android:textStyle="bold"
+        android:singleLine="true"
+        android:background="@android:color/transparent" />
+
+    <Button
+        android:id="@+id/date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <CheckBox
+        android:id="@+id/interview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Interviewed"  />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="5dp"
+        android:text="NOTE"
+        android:textStyle="italic"
+        android:textSize="16dp"/>
+
+    <EditText
+        android:id="@+id/note"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="20dp"
+        android:hint="TAP TO ENTER"
+        android:textColorHint="#bdbdbd"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="#737cda"
+        android:background="@android:color/transparent" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <Button
+        android:id="@+id/confirm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="30dp"
+        android:text="Confirm"/>
+
+    <Button
+        android:id="@+id/delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ff0000"
+        android:text="Delete" />
+    </LinearLayout>
+
+</LinearLayout>
